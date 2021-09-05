@@ -63,6 +63,8 @@ class ArmoryController extends Controller
         $artifactPrefix = Scroll::where(['type' => 'prefix'])->where(['artifact' => 1])->get();
         $artifactSuffix = Scroll::where(['type' => 'suffix'])->where(['artifact' => 1])->get();
 
+        $asd = json_encode(["str" => "0", "ats" => "0"]);
+
         return view('pages.home', compact(
             'weapons', 
             'weaponPrefix', 
@@ -103,6 +105,7 @@ class ArmoryController extends Controller
             'artifact',
             'artifactPrefix',
             'artifactSuffix',
+            'asd'
         ));
     }
 }

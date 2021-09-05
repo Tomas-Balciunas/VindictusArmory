@@ -30,7 +30,6 @@ class CreateAccessoriesTable extends Migration
             $table->integer('int')->default(0);
             $table->integer('wil')->default(0);
             $table->string('set')->nullable();
-            $table->timestamps();
         });
     }
 

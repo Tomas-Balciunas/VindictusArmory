@@ -25,7 +25,6 @@ class CreateWeaponsTable extends Migration
             $table->integer('agi')->nullable();
             $table->integer('int')->nullable();
             $table->integer('wil')->nullable();
-            $table->timestamps();
         });
     }
 

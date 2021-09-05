@@ -1,31 +1,33 @@
 <div class="container">
-    <div class="labels">
-        <label for="artifact">Type</label>
-        <select id="artifact" autocomplete="off">
-            <option value='{}' selected="selected">Artifact</option>
-            @foreach ($artifact as $item)
-            <option value="{{$item}}">{{$item->name}}</option>
-            @endforeach
-        </select>
-    </div>
+    <div class="selectCont">
+        <div class="labels">
+            <label for="artifact">Type</label>
+            <select id="artifact" autocomplete="off">
+                <option value='{}' selected="selected">Artifact</option>
+                @foreach ($artifact as $item)
+                <option value="{{$item}}">{{$item->name}}</option>
+                @endforeach
+            </select>
+        </div>
 
-    <div class="labels">
-        <label>Prefix</label>
-        <select autocomplete="off">
-            <option value='{"def":"0", "cres":"0","ats":"0","bal":"0","crit":"0"}' selected="selected">None</option>
-            @foreach ($artifactPrefix as $prefix)
-            <option value="{{$prefix}}">{{$prefix->name}}</option>
-            @endforeach
-        </select>
-    </div>
+        <div class="labels">
+            <label>Prefix</label>
+            <select autocomplete="off">
+                <option value='{"def":"0", "cres":"0","ats":"0","bal":"0","crit":"0"}' selected="selected">None</option>
+                @foreach ($artifactPrefix as $prefix)
+                <option value="{{$prefix}}">{{$prefix->name}}</option>
+                @endforeach
+            </select>
+        </div>
 
-    <div class="labels">
-        <label>Suffix</label>
-        <select autocomplete="off">
-            <option value='{"def":"0", "cres":"0","ats":"0","bal":"0","crit":"0"}' selected="selected">None</option>
-            @foreach ($artifactSuffix as $suffix)
-            <option value="{{$suffix}}">{{$suffix->name}}</option>
-            @endforeach
-        </select>
+        <div class="labels">
+            <label>Suffix</label>
+            <select autocomplete="off">
+                <option value='{"def":"0", "cres":"0","ats":"0","bal":"0","crit":"0"}' selected="selected">None</option>
+                @foreach ($artifactSuffix as $suffix)
+                <option value="{{$suffix}}">{{$suffix->name}}</option>
+                @endforeach
+            </select>
+        </div>
     </div>
 </div>

@@ -41,7 +41,6 @@ class CreateScrollsTable extends Migration
             $table->integer('agi')->default(0);
             $table->integer('int')->default(0);
             $table->integer('wil')->default(0);
-            $table->timestamps();
         });
     }
 
