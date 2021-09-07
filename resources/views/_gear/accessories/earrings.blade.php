@@ -5,7 +5,7 @@
     <div class="selectCont">
         <div class="labels">
             <label for="earrings">Type</label>
-            <select id="earrings" autocomplete="off">
+            <select id="earrings" class="type" autocomplete="off">
                 <option value='0' selected="selected">None</option>
                 @foreach ($earrings as $item)
                 <option value="{{$item}}">{{$item->name}}</option>
@@ -44,7 +44,7 @@
 
         <div class="labels">
             <label>Quality</label>
-            <select class="quality">
+            <select class="quality" autocomplete="off">
                 <option value="2">★2</option>
                 <option value="3">★3</option>
                 <option value="4">★4</option>

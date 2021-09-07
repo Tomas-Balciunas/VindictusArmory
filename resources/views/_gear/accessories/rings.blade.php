@@ -5,7 +5,7 @@
     <div class="selectCont">
         <div class="labels">
             <label>Type</label>
-            <select id="ring1" autocomplete="off">
+            <select id="ring1" class="type" autocomplete="off">
                 <option value='0' selected="selected">None</option>
                 @foreach ($ring as $item)
                 <option value="{{$item}}">{{$item->name}}</option>
@@ -44,7 +44,7 @@
 
         <div class="labels">
             <label>Quality</label>
-            <select class="quality">
+            <select class="quality" autocomplete="off">
                 <option value="2">★2</option>
                 <option value="3">★3</option>
                 <option value="4">★4</option>
@@ -73,7 +73,7 @@
     <div class="selectCont">
         <div class="labels">
             <label>Type</label>
-            <select id="ring2" autocomplete="off">
+            <select id="ring2" class="type" autocomplete="off">
                 <option value='0' selected="selected">None</option>
                 @foreach ($ring as $item)
                 <option value="{{$item}}">{{$item->name}}</option>
@@ -112,7 +112,7 @@
 
         <div class="labels">
             <label>Quality</label>
-            <select class="quality">
+            <select class="quality" autocomplete="off">
                 <option value="2">★2</option>
                 <option value="3">★3</option>
                 <option value="4">★4</option>

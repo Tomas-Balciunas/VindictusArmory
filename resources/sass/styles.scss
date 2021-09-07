@@ -37,6 +37,36 @@
             justify-content: center;
         }   
     }
+
+    .baseStats {
+        margin-top: 2em;
+        span {
+            text-align: center;
+            border: 1px solid black;
+            padding: 2px 0 2px 7px;
+            display: inline-block;
+        }
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+            width: 2em;
+            padding: 0.5em;
+        }
+
+        input[type=number] {
+            -moz-appearance: textfield;
+            width: 3em;
+            border: 1px solid black;
+            outline: none;
+            margin-left: 7px;
+            margin-top: -4px;
+            margin-bottom: -4px;
+            margin-right: -1px;
+            text-align: center;
+            height: 20px;
+        }
+    }
 }
 
 .labels {
@@ -47,6 +77,11 @@
 }
 
 h1 {
+    text-align: center;
+}
+
+h4 {
+    width: 100%;
     text-align: center;
 }
 
