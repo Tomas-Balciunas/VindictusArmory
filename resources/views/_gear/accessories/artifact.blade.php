@@ -13,7 +13,7 @@
         <div class="labels">
             <label>Prefix</label>
             <select autocomplete="off">
-                <option value='{"def":"0", "cres":"0","ats":"0","bal":"0","crit":"0"}' selected="selected">None</option>
+                <option value='0' selected="selected">None</option>
                 @foreach ($artifactPrefix as $prefix)
                 <option value="{{$prefix}}">{{$prefix->name}}</option>
                 @endforeach
@@ -23,7 +23,7 @@
         <div class="labels">
             <label>Suffix</label>
             <select autocomplete="off">
-                <option value='{"def":"0", "cres":"0","ats":"0","bal":"0","crit":"0"}' selected="selected">None</option>
+                <option value='0' selected="selected">None</option>
                 @foreach ($artifactSuffix as $suffix)
                 <option value="{{$suffix}}">{{$suffix->name}}</option>
                 @endforeach

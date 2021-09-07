@@ -16,15 +16,16 @@ class CreateWeaponsTable extends Migration
         Schema::create('weapons', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->boolean('quality');
             $table->integer('ats');
             $table->integer('bal');
             $table->integer('crit');
-            $table->integer('att')->nullable();
-            $table->integer('matt')->nullable();
-            $table->integer('str')->nullable();
-            $table->integer('agi')->nullable();
-            $table->integer('int')->nullable();
-            $table->integer('wil')->nullable();
+            $table->integer('att');
+            $table->integer('matt');
+            $table->integer('str');
+            $table->integer('agi');
+            $table->integer('int');
+            $table->integer('wil');
         });
     }
 

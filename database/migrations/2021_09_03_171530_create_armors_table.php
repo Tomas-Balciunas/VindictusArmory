@@ -17,13 +17,14 @@ class CreateArmorsTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('type');
+            $table->boolean('quality');
             $table->integer('def');
             $table->integer('cres');
             $table->integer('bal')->nullable();
-            $table->integer('str')->nullable();
-            $table->integer('agi')->nullable();
-            $table->integer('int')->nullable();
-            $table->integer('wil')->nullable();
+            $table->integer('str');
+            $table->integer('agi');
+            $table->integer('int');
+            $table->integer('wil');
         });
     }
 

@@ -9,7 +9,7 @@
                 <li>Balance:<span id="bal">0</span></li>
                 <li>Critical Rate:<span id="crit">31</span></li>
                 <li>Attack:<span id="att">0</span></li>
-                <li>M. Attack:<span id="att">0</span></li>
+                <li>M. Attack:<span id="matt">0</span></li>
                 <li>Defense:<span id="def">0</span></li>
                 <li>Crit Resistance:<span id="cres">0</span></li>
                 <li>Strength:<span id="str">0</span></li>

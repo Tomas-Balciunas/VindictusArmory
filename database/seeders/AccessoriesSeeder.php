@@ -18,6 +18,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Innocent Cry',
                 'type' => 'earrings',
+                'quality' => true,
                 'crit' => 1,
                 'str' => 120,
                 'agi' => 45,
@@ -26,6 +27,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => "Devil's Crystal",
                 'type' => 'earrings',
+                'quality' => true,
                 'crit' => 2,
                 'str' => 125,
                 'agi' => 50,
@@ -34,6 +36,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Innocent Tear',
                 'type' => 'earrings',
+                'quality' => true,
                 'crit' => 1,
                 'agi' => 45,
                 'int' => 162,
@@ -42,6 +45,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => "Devil's Teardrop",
                 'type' => 'earrings',
+                'quality' => true,
                 'crit' => 2,
                 'agi' => 50,
                 'int' => 167,
@@ -50,6 +54,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Silent Resolution',
                 'type' => 'earrings',
+                'quality' => true,
                 'crit' => 3,
                 'str' => 125,
                 'agi' => 50,
@@ -59,6 +64,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Woeful Belt',
                 'type' => 'belt',
+                'quality' => true,
                 'bal' => 2,
                 'str' => 140,
                 'agi' => 90,
@@ -67,6 +73,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Seal Belt',
                 'type' => 'belt',
+                'quality' => true,
                 'bal' => 3,
                 'str' => 145,
                 'agi' => 95,
@@ -75,6 +82,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Grim Belt',
                 'type' => 'belt',
+                'quality' => true,
                 'bal' => 2,
                 'agi' => 90,
                 'int' => 188,
@@ -83,6 +91,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Barrier Belt',
                 'type' => 'belt',
+                'quality' => true,
                 'bal' => 3,
                 'agi' => 95,
                 'int' => 193,
@@ -91,6 +100,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Spirited Belt',
                 'type' => 'belt',
+                'quality' => true,
                 'bal' => 4,
                 'str' => 145,
                 'agi' => 95,
@@ -100,6 +110,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Frozen Thorn',
                 'type' => 'ring',
+                'quality' => true,
                 'bal' => 1,
                 'str' => 140,
                 'agi' => 70,
@@ -109,6 +120,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Frozen Dagger',
                 'type' => 'ring',
+                'quality' => true,
                 'bal' => 1,
                 'str' => 140,
                 'agi' => 70,
@@ -118,6 +130,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Daybreak Pioneer',
                 'type' => 'ring',
+                'quality' => true,
                 'bal' => 2,
                 'crit' => 1,
                 'str' => 140,
@@ -128,6 +141,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Daybreak Trailblazer',
                 'type' => 'ring',
+                'quality' => true,
                 'bal' => 2,
                 'crit' => 1,
                 'str' => 140,
@@ -138,6 +152,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Frozen Will',
                 'type' => 'ring',
+                'quality' => true,
                 'bal' => 1,
                 'agi' => 70,
                 'int' => 180,
@@ -147,6 +162,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Frozen Desire',
                 'type' => 'ring',
+                'quality' => true,
                 'bal' => 1,
                 'agi' => 70,
                 'int' => 180,
@@ -156,6 +172,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Daybreak Conquest',
                 'type' => 'ring',
+                'quality' => true,
                 'bal' => 2,
                 'crit' => 1,
                 'agi' => 70,
@@ -166,6 +183,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Daybreak Transcendence',
                 'type' => 'ring',
+                'quality' => true,
                 'bal' => 2,
                 'crit' => 1,
                 'agi' => 70,
@@ -176,6 +194,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Twilight Blade',
                 'type' => 'ring',
+                'quality' => true,
                 'bal' => 3,
                 'crit' => 2,
                 'str' => 140,
@@ -187,6 +206,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Twilight Protection',
                 'type' => 'ring',
+                'quality' => true,
                 'bal' => 3,
                 'crit' => 2,
                 'str' => 140,
@@ -198,6 +218,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'White Kitty Brooch',
                 'type' => 'brooch',
+                'quality' => true,
                 'ats' => 2,
                 'str' => 48,
                 'agi' => 48,
@@ -207,6 +228,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Blue Kitty Brooch',
                 'type' => 'brooch',
+                'quality' => true,
                 'crit' => 1,
                 'def' => 50,
                 'str' => 33,
@@ -217,6 +239,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Red Moon Brooch',
                 'type' => 'brooch',
+                'quality' => true,
                 'ats' => 2,
                 'crit' => 1,
                 'def' => 50,
@@ -228,6 +251,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Seraphic Feathers Brooch',
                 'type' => 'brooch',
+                'quality' => true,
                 'ats' => 2,
                 'crit' => 2,
                 'def' => 100,
@@ -239,6 +263,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'The Book of Legacy',
                 'type' => 'totem',
+                'quality' => true,
                 'crit' => 3,
                 'def' => 40,
                 'cres' => 1,
@@ -248,6 +273,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'The Book of Succession',
                 'type' => 'totem',
+                'quality' => true,
                 'ats' => 3,
                 'crit' => 3,
                 'def' => 1040,
@@ -260,6 +286,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'The Book of Milletian',
                 'type' => 'totem',
+                'quality' => true,
                 'ats' => 3,
                 'crit' => 3,
                 'att' => 210,
@@ -274,6 +301,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'The Book of Ardri',
                 'type' => 'totem',
+                'quality' => true,
                 'ats' => 3,
                 'crit' => 5,
                 'att' => 610,
@@ -321,19 +349,21 @@ class AccessoriesSeeder extends Seeder
             ],
             [
                 'name' => 'Cat Statue',
-                'type' => 'artifact',
+                'type' => 'artifact'
             ],
+
             [
                 'name' => 'Werewolf Paw',
-                'type' => 'artifact',
+                'type' => 'artifact'
             ],
+
             [
                 'name' => 'Succubus Fang',
-                'type' => 'artifact',
-            ],
+                'type' => 'artifact'
+            ]
         ];
 
-        foreach($accs as $acc) {
+        foreach ($accs as $acc) {
             DB::table('accessories')->insert($acc);
         };
     }

@@ -21,7 +21,9 @@ class ScrollSeeder extends Seeder
                 'weapon' => 1,
                 'ats' => 8,
                 'bal' => 2,
-                'crit' => 2
+                'crit' => 2,
+                'att' => 430,
+                'matt' => 430
             ],
             [
                 'name' => 'Immoral',
@@ -29,7 +31,9 @@ class ScrollSeeder extends Seeder
                 'weapon' => 1,
                 'ats' => 4,
                 'crit' => 8,
-                'cres' => -5
+                'cres' => -5,
+                'att' => 220,
+                'matt' => 220
             ],
             [
                 'name' => 'Chaotic',
@@ -37,7 +41,9 @@ class ScrollSeeder extends Seeder
                 'weapon' => 1,
                 'ats' => 4,
                 'crit' => 9,
-                'cres' => -4
+                'cres' => -4,
+                'att' => 340,
+                'matt' => 340
             ],
             [
                 'name' => 'Brutal',
@@ -45,14 +51,18 @@ class ScrollSeeder extends Seeder
                 'weapon' => 1,
                 'ats' => 8,
                 'bal' => 2,
-                'crit' => 4
+                'crit' => 4,
+                'att' => 430,
+                'matt' => 430
             ],
             [
                 'name' => 'Calm',
                 'type' => 'prefix',
                 'weapon' => 1,
                 'ats' => 4,
-                'bal' => 5
+                'bal' => 5,
+                'att' => -280,
+                'matt' => -280
             ],
             [
                 'name' => 'Conviction',
@@ -60,21 +70,27 @@ class ScrollSeeder extends Seeder
                 'weapon' => 1,
                 'ats' => 3,
                 'bal' => -1,
-                'crit' => 5
+                'crit' => 5,
+                'att' => 970,
+                'matt' => 970
             ],
             [
                 'name' => 'Valor',
                 'type' => 'suffix',
                 'weapon' => 1,
                 'ats' => 4,
-                'bal' => 5
+                'bal' => 5,
+                'att' => 130,
+                'matt' => 130
             ],
             [
                 'name' => 'Bloodlust',
                 'type' => 'suffix',
                 'weapon' => 1,
                 'ats' => 5,
-                'bal' => 3
+                'bal' => 3,
+                'att' => 150,
+                'matt' => 150
             ],
             [
                 'name' => 'Reinforced',
@@ -84,6 +100,8 @@ class ScrollSeeder extends Seeder
                 'ats' => 2,
                 'bal' => 2,
                 'crit' => 1,
+                'att' => 145,
+                'matt' => 145,
                 'def' => 150,
                 'cres' => -1
             ],
@@ -95,6 +113,8 @@ class ScrollSeeder extends Seeder
                 'ats' => 2,
                 'bal' => 3,
                 'crit' => 2,
+                'att' => 145,
+                'matt' => 145,
                 'def' => 300,
                 'cres' => -1
             ],
@@ -106,6 +126,8 @@ class ScrollSeeder extends Seeder
                 'ats' => 2,
                 'bal' => 4,
                 'crit' => 3,
+                'att' => 145,
+                'matt' => 145,
                 'def' => 300,
                 'cres' => -1
             ],
@@ -116,6 +138,8 @@ class ScrollSeeder extends Seeder
                 'feet' => 1,
                 'ats' => 1,
                 'bal' => 4,
+                'att' => 365,
+                'matt' => 365,
                 'def' => -260,
                 'cres' => 2
             ],
@@ -126,6 +150,8 @@ class ScrollSeeder extends Seeder
                 'feet' => 1,
                 'ats' => 1,
                 'bal' => 5,
+                'att' => 465,
+                'matt' => 465,
                 'def' => -300,
                 'cres' => 3
             ],
@@ -137,6 +163,8 @@ class ScrollSeeder extends Seeder
                 'ats' => 2,
                 'bal' => 1,
                 'crit' => 2,
+                'att' => 245,
+                'matt' => 245,
                 'def' => 100,
                 'cres' => 2
             ],
@@ -148,6 +176,8 @@ class ScrollSeeder extends Seeder
                 'ats' => 2,
                 'bal' => 2,
                 'crit' => 2,
+                'att' => 245,
+                'matt' => 245,
                 'def' => 200,
                 'cres' => 4
             ],
@@ -159,6 +189,8 @@ class ScrollSeeder extends Seeder
                 'ats' => 2,
                 'bal' => 3,
                 'crit' => 3,
+                'att' => 245,
+                'matt' => 245,
                 'def' => 200,
                 'cres' => 6
             ],
@@ -168,6 +200,8 @@ class ScrollSeeder extends Seeder
                 'head' => 1,
                 'legs' => 1,
                 'crit' => 3,
+                'att' => 285,
+                'matt' => 285,
                 'def' => 280,
                 'cres' => 5
             ],
@@ -180,6 +214,8 @@ class ScrollSeeder extends Seeder
                 'hands' => 1,
                 'feet' => 1,
                 'bal' => 5,
+                'att' => 282,
+                'matt' => 282,
                 'def' => -370
             ],
             [
