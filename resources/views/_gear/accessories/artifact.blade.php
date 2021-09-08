@@ -1,9 +1,8 @@
 <div class="container">
     <div class="selectCont">
         <div class="labels">
-            <label for="artifact">Type</label>
             <select id="artifact" autocomplete="off">
-                <option value='{}' selected="selected">Artifact</option>
+                <option value='{}' selected="selected" disabled>Artifact</option>
                 @foreach ($artifact as $item)
                 <option value="{{$item}}">{{$item->name}}</option>
                 @endforeach
@@ -11,9 +10,9 @@
         </div>
 
         <div class="labels">
-            <label>Prefix</label>
             <select autocomplete="off">
-                <option value='0' selected="selected">None</option>
+                <option selected="selected" disabled>Prefix</option>
+                <option value='0'>None</option>
                 @foreach ($artifactPrefix as $prefix)
                 <option value="{{$prefix}}">{{$prefix->name}}</option>
                 @endforeach
@@ -21,9 +20,9 @@
         </div>
 
         <div class="labels">
-            <label>Suffix</label>
             <select autocomplete="off">
-                <option value='0' selected="selected">None</option>
+                <option selected="selected" disabled>Suffix</option>
+                <option value='0'>None</option>
                 @foreach ($artifactSuffix as $suffix)
                 <option value="{{$suffix}}">{{$suffix->name}}</option>
                 @endforeach

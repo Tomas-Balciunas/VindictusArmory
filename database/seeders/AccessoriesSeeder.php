@@ -18,6 +18,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Innocent Cry',
                 'type' => 'earrings',
+                'level' => 85,
                 'quality' => true,
                 'crit' => 1,
                 'str' => 120,
@@ -27,6 +28,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => "Devil's Crystal",
                 'type' => 'earrings',
+                'level' => 100,
                 'quality' => true,
                 'crit' => 2,
                 'str' => 125,
@@ -36,6 +38,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Innocent Tear',
                 'type' => 'earrings',
+                'level' => 85,
                 'quality' => true,
                 'crit' => 1,
                 'agi' => 45,
@@ -45,6 +48,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => "Devil's Teardrop",
                 'type' => 'earrings',
+                'level' => 100,
                 'quality' => true,
                 'crit' => 2,
                 'agi' => 50,
@@ -54,6 +58,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Silent Resolution',
                 'type' => 'earrings',
+                'level' => 105,
                 'quality' => true,
                 'crit' => 3,
                 'str' => 125,
@@ -64,6 +69,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Woeful Belt',
                 'type' => 'belt',
+                'level' => 85,
                 'quality' => true,
                 'bal' => 2,
                 'str' => 140,
@@ -73,6 +79,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Seal Belt',
                 'type' => 'belt',
+                'level' => 100,
                 'quality' => true,
                 'bal' => 3,
                 'str' => 145,
@@ -82,6 +89,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Grim Belt',
                 'type' => 'belt',
+                'level' => 85,
                 'quality' => true,
                 'bal' => 2,
                 'agi' => 90,
@@ -91,6 +99,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Barrier Belt',
                 'type' => 'belt',
+                'level' => 100,
                 'quality' => true,
                 'bal' => 3,
                 'agi' => 95,
@@ -100,6 +109,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Spirited Belt',
                 'type' => 'belt',
+                'level' => 105,
                 'quality' => true,
                 'bal' => 4,
                 'str' => 145,
@@ -110,6 +120,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Frozen Thorn',
                 'type' => 'ring',
+                'level' => 90,
                 'quality' => true,
                 'bal' => 1,
                 'str' => 140,
@@ -120,6 +131,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Frozen Dagger',
                 'type' => 'ring',
+                'level' => 90,
                 'quality' => true,
                 'bal' => 1,
                 'str' => 140,
@@ -130,6 +142,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Daybreak Pioneer',
                 'type' => 'ring',
+                'level' => 100,
                 'quality' => true,
                 'bal' => 2,
                 'crit' => 1,
@@ -141,6 +154,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Daybreak Trailblazer',
                 'type' => 'ring',
+                'level' => 100,
                 'quality' => true,
                 'bal' => 2,
                 'crit' => 1,
@@ -152,6 +166,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Frozen Will',
                 'type' => 'ring',
+                'level' => 90,
                 'quality' => true,
                 'bal' => 1,
                 'agi' => 70,
@@ -162,6 +177,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Frozen Desire',
                 'type' => 'ring',
+                'level' => 90,
                 'quality' => true,
                 'bal' => 1,
                 'agi' => 70,
@@ -172,6 +188,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Daybreak Conquest',
                 'type' => 'ring',
+                'level' => 100,
                 'quality' => true,
                 'bal' => 2,
                 'crit' => 1,
@@ -183,6 +200,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Daybreak Transcendence',
                 'type' => 'ring',
+                'level' => 100,
                 'quality' => true,
                 'bal' => 2,
                 'crit' => 1,
@@ -194,6 +212,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Twilight Blade',
                 'type' => 'ring',
+                'level' => 105,
                 'quality' => true,
                 'bal' => 3,
                 'crit' => 2,
@@ -206,6 +225,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Twilight Protection',
                 'type' => 'ring',
+                'level' => 105,
                 'quality' => true,
                 'bal' => 3,
                 'crit' => 2,
@@ -218,6 +238,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'White Kitty Brooch',
                 'type' => 'brooch',
+                'level' => 70,
                 'quality' => true,
                 'ats' => 2,
                 'str' => 48,
@@ -228,6 +249,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Blue Kitty Brooch',
                 'type' => 'brooch',
+                'level' => 70,
                 'quality' => true,
                 'crit' => 1,
                 'def' => 50,
@@ -239,6 +261,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Red Moon Brooch',
                 'type' => 'brooch',
+                'level' => 100,
                 'quality' => true,
                 'ats' => 2,
                 'crit' => 1,
@@ -251,6 +274,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Seraphic Feathers Brooch',
                 'type' => 'brooch',
+                'level' => 105,
                 'quality' => true,
                 'ats' => 2,
                 'crit' => 2,
@@ -263,6 +287,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'The Book of Legacy',
                 'type' => 'totem',
+                'level' => 95,
                 'quality' => true,
                 'crit' => 3,
                 'def' => 40,
@@ -273,6 +298,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'The Book of Succession',
                 'type' => 'totem',
+                'level' => 100,
                 'quality' => true,
                 'ats' => 3,
                 'crit' => 3,
@@ -286,6 +312,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'The Book of Milletian',
                 'type' => 'totem',
+                'level' => 105,
                 'quality' => true,
                 'ats' => 3,
                 'crit' => 3,
@@ -301,6 +328,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'The Book of Ardri',
                 'type' => 'totem',
+                'level' => 110,
                 'quality' => true,
                 'ats' => 3,
                 'crit' => 5,
@@ -316,6 +344,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Kitty Necklace',
                 'type' => 'necklace',
+                'level' => 60,
                 'str' => 3,
                 'agi' => 16,
                 'int' => 3,
@@ -324,6 +353,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Blue Kitty Necklace',
                 'type' => 'necklace',
+                'level' => 60,
                 'str' => 5,
                 'agi' => 5,
                 'int' => 5,
@@ -332,6 +362,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'White Kitty Necklace',
                 'type' => 'necklace',
+                'level' => 60,
                 'def' => 50,
                 'str' => 10,
                 'agi' => 10,
@@ -341,6 +372,7 @@ class AccessoriesSeeder extends Seeder
             [
                 'name' => 'Red Kitty Necklace',
                 'type' => 'necklace',
+                'level' => 100,
                 'def' => 50,
                 'str' => 10,
                 'agi' => 16,
@@ -351,12 +383,10 @@ class AccessoriesSeeder extends Seeder
                 'name' => 'Cat Statue',
                 'type' => 'artifact'
             ],
-
             [
                 'name' => 'Werewolf Paw',
                 'type' => 'artifact'
             ],
-
             [
                 'name' => 'Succubus Fang',
                 'type' => 'artifact'

@@ -4,9 +4,9 @@
     </div>
     <div class="selectCont">
         <div class="labels">
-            <label for="necklace">Type</label>
             <select id="necklace" autocomplete="off">
-                <option value='0' selected="selected">None</option>
+                <option value="0" selected="selected" disabled>Type</option>
+                <option value='0'>None</option>
                 @foreach ($necklace as $item)
                 <option value="{{$item}}">{{$item->name}}</option>
                 @endforeach
@@ -14,9 +14,9 @@
         </div>
 
         <div class="labels">
-            <label>Prefix</label>
             <select autocomplete="off">
-                <option value='0' selected="selected">None</option>
+                <option selected="selected" disabled>Prefix</option>
+                <option value='0'>None</option>
                 @foreach ($necklacePrefix as $prefix)
                 <option value="{{$prefix}}">{{$prefix->name}}</option>
                 @endforeach
@@ -24,9 +24,9 @@
         </div>
 
         <div class="labels">
-            <label>Suffix</label>
             <select autocomplete="off">
-                <option value='0' selected="selected">None</option>
+                <option selected="selected" disabled>Suffix</option>
+                <option value='0'>None</option>
                 @foreach ($necklaceSuffix as $suffix)
                 <option value="{{$suffix}}">{{$suffix->name}}</option>
                 @endforeach
@@ -34,9 +34,9 @@
         </div>
 
         <div class="labels">
-            <label>Infusion</label>
             <select autocomplete="off">
-                <option value='0' selected="selected">None</option>
+                <option selected="selected" disabled>Infusion</option>
+                <option value='0'>None</option>
                 <option value='{"ats":"1"}'>+1 ats</option>
                 <option value='{"bal":"1"}'>+1 bal</option>
                 <option value='{"crit":"1"}'>+1 crit</option>

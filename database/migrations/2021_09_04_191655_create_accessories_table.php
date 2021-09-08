@@ -18,6 +18,7 @@ class CreateAccessoriesTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('type');
+            $table->integer('level')->nullable();
             $table->boolean('quality')->default(0);
             $table->integer('ats')->default(0);
             $table->integer('bal')->default(0);

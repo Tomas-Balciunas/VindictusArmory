@@ -388,6 +388,17 @@ class ScrollSeeder extends Seeder
                 'cres' => 3
             ],
             [
+                'name' => 'Berserker',
+                'type' => 'suffix',
+                'earrings' => 1,
+                'belt' => 1,
+                'rings' => 1,
+                'brooch' => 1,
+                'necklace' => 1,
+                'artifact' => 1,
+                'att' => 30
+            ],
+            [
                 'name' => 'Healthy',
                 'type' => 'suffix',
                 'earrings' => 1,

@@ -68,15 +68,6 @@
             </div>
 
             <div class="labels">
-                <label>Outfit</label>
-                <select autocomplete="off">
-                    <option value='0' selected="selected">None</option>
-                    <option value='{"att":"250","matt":"250"}'>Regular</option>
-                    <option value='{"att":"500","matt":"500","bal":"2"}'>Premium</option>
-                </select>
-            </div>
-
-            <div class="labels">
                 <label>Ein Lacher</label>
                 <select autocomplete="off">
                     <option value='0' selected="selected">None</option>
@@ -94,10 +85,43 @@
             </div>
 
             <div class="labels">
+                <label>Outfit</label>
+                <select autocomplete="off">
+                    <option value='0' selected="selected">None</option>
+                    <option value='{"att":"250","matt":"250"}'>Regular</option>
+                    <option value='{"att":"500","matt":"500","bal":"2"}'>Premium</option>
+                </select>
+            </div>
+            
+            <div class="labels">
                 <label>VIP</label>
                 <select autocomplete="off">
                     <option value='0' selected="selected">None</option>
                     <option value='{"att":"209","matt":"191","wil":"110"}'>VIP</option>
+                </select>
+            </div>
+
+            <div class="labels">
+                <label>Badge</label>
+                <select autocomplete="off">
+                    <option value='0' selected="selected">None</option>
+                    <option value='{"def":"600"}'>Cadet</option>
+                </select>
+            </div>
+
+            <div class="labels">
+                <label>Epaulet</label>
+                <select autocomplete="off">
+                    <option value='0' selected="selected">None</option>
+                    <option value='{"att":"500","matt":"500"}'>Crimson Blade</option>
+                </select>
+            </div>
+
+            <div class="labels">
+                <label>Epaulet</label>
+                <select autocomplete="off">
+                    <option value='0' selected="selected">None</option>
+                    <option value='{"att":"500","matt":"500"}'>Crimson Blade</option>
                 </select>
             </div>
         </div>

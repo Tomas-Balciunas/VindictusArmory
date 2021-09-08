@@ -1,3 +1,8 @@
+html, body, input, select {
+    background-color: rgb(48, 48, 54);
+    color: rgb(219, 219, 219);
+}
+
 .body {
     display: flex;
     flex-flow: row wrap;
@@ -27,6 +32,7 @@
 
             .gearIcons {
                 height: 2.5em;
+                filter: invert(100%);
             }
         }
 
@@ -69,6 +75,12 @@
     }
 }
 
+.fillerContainer {
+    display: flex;
+    flex-flow: column wrap;
+    height: 17em;
+}
+
 .labels {
     display: flex;
     flex-flow: column wrap;
@@ -83,5 +95,10 @@ h1 {
 h4 {
     width: 100%;
     text-align: center;
+}
+
+select {
+   appearance: none;
+   height: 25px;
 }
 
